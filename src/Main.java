@@ -61,6 +61,7 @@ public class Main {
         for (int i = 0; i < arr3.length; i++) {
             arr3[i] = (i + (float) (3.1 * i));
         }
+
         for (int i = 0; i < arr3.length; i++) {
             if (i == (arr3.length - 1)) {
                 System.out.print(arr3[i]);
@@ -128,7 +129,8 @@ public class Main {
         arr[1] = 2;
         arr[2] = 3;
 
-        for (int i = 0; i < arr.length; i++) {
+        for (int i = 0; i < arr.length; i++)
+        {
             if (arr[i] % 2 != 0) {
                 arr[i] += 1;
             }
